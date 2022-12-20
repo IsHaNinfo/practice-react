@@ -1,4 +1,5 @@
 import React from "react";
+import NewExpense from "./compontnt/NewExpense/NewExpense";
 import Expenses from "./compontnt/Expenses/Expenses";
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
   );*/
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense />
       <Expenses items={expense} />
     </div>
   );
